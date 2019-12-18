@@ -1,6 +1,6 @@
 <?php
 
-namespace noreaum\JohnDeere;
+namespace Noreaum\JohnDeere;
 
 use SocialiteProviders\Manager\OAuth1\AbstractProvider;
 use SocialiteProviders\Manager\OAuth1\User;

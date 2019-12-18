@@ -1,6 +1,6 @@
 <?php
 
-namespace noreaum\JohnDeere;
+namespace Noreaum\JohnDeere;
 
 use League\OAuth1\Client\Credentials\TemporaryCredentials;
 use League\OAuth1\Client\Credentials\TokenCredentials;
