@@ -33,7 +33,7 @@ class Server extends BaseServer
      */
     public function urlTemporaryCredentials()
     {
-        return $this->baseUrl().'platform/oauth/request_token';
+        return $this->baseUrl().'/platform/oauth/request_token';
     }
 
     /**
@@ -49,7 +49,7 @@ class Server extends BaseServer
      */
     public function urlTokenCredentials()
     {
-        return $this->baseUrl().'platform/oauth/access_token';
+        return $this->baseUrl().'/platform/oauth/access_token';
     }
 
     /**
@@ -57,7 +57,7 @@ class Server extends BaseServer
      */
     public function urlUserDetails()
     {
-        return $this->baseUrl().'platform/users/@currentUser';
+        return $this->baseUrl().'/platform/users/@currentUser';
     }
 
     /**
